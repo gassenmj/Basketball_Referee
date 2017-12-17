@@ -2,7 +2,7 @@ create or replace package file_handle is
  procedure ical_file_parser(p_name in varchar2);
 end file_handle;
 /
-create or replace package file_handle is
+create or replace package body file_handle is
     procedure ical_file_parser(p_name in varchar2) is 
     
       type t_stringtab is table of varchar2(500);
@@ -122,7 +122,6 @@ create or replace package file_handle is
      
                      l_offset := l_end;
              end loop;
-    end;
     end ical_file_parser;
 end file_handle;
 /
