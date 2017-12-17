@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F22DF35-D58D-66EC-5A03-119F74C97085" name="team">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>FD69A485-4404-C62A-99A0-5EF7FF1226F0</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="team_id" id="F01E1DDE-AE02-6AA9-F4FD-3E07A7A0443E">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>F460CDB2-59A0-723F-983D-2DF43F3F7715</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_name" id="B8808FF1-19D6-E3BB-F61F-F8E976EA4B9B">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>BA5E3621-2ACD-6C65-E99A-16BECE37B511</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68F5DE5B-6D52-586A-E527-7484DD41EFA1" name="team_pk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>E7F120BD-79D9-08DE-9186-132B52F473D5</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F01E1DDE-AE02-6AA9-F4FD-3E07A7A0443E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1530C2D-592A-08F5-8041-B6567C07ACCC" name="team_team_name_uk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:37:49 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8808FF1-19D6-E3BB-F61F-F8E976EA4B9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="game_guest_team_fk" directorySegmentName="seg_0" id="B5170318-B4F0-0FA7-A5B0-273206C9EEBC">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:57:57 UTC</createdTime>
+<generatorID>C0611EDA-ACBB-5A3A-0145-BDFD60F0C514</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<sourcePk>E7F120BD-79D9-08DE-9186-132B52F473D5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD69A485-4404-C62A-99A0-5EF7FF1226F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8FEFD2C-69BA-E625-8392-843B2C16633B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

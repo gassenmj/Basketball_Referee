@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D10E8C7F-E0B5-3810-F1B0-5F300BDFEA91" name="game_involvement">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>EFFB8DA6-3ECE-A39E-5795-0CF0CF034ED0</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3943F9C5-1E44-AAE2-45DB-EAE681019505">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:10:33 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_game_involvement_id</notNullConstraintName>
+</Column>
+<Column name="game_id" id="DAB87F96-25EC-3E98-DDA1-28940E2FD79E">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>92F8EA9D-BB5F-55C2-428C-927ECDEB0D88</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_game_involvement_game_game_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A951E575-C9E5-E060-E85F-666545E27F59" referredColumn="58C00DC2-D2F7-FBBB-C51F-3E1FAFA011B5"/>
+</associations>
+</Column>
+<Column name="person_id" id="FE6971DA-2D79-FF30-0E46-AAAC345D9189">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>AB9DF067-98C9-45D3-62FA-916F0843987B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_game_involvement_person_person_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="3ED92F57-667B-29A8-E78F-703E6AE34E83" referredColumn="1E931F55-1757-FFDD-2ED3-4A7F7CE8FDCB"/>
+</associations>
+</Column>
+<Column name="type_of_involvement" id="D5C5CC44-C37A-C409-58C6-7EC7B60662F5">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:21:09 UTC</createdTime>
+<generatorID>8792AE09-3BE2-A405-6546-4C4B49C31E46</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>type_of_involvement_activity_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6A08C249-8457-5952-5275-CEBBD5E6C624" referredColumn="599B99FE-DEC8-94D3-D21B-78D6172A25DD"/>
+</associations>
+</Column>
+<Column name="is_active" id="794386D9-F656-56DC-24F5-1B061DEC74A8">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:09:59 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_game_involvement_is_active</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EC133FC-786C-EB4C-5C79-A1D56E49B12D" name="game_involvement_pk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:10:33 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3943F9C5-1E44-AAE2-45DB-EAE681019505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31668D1D-1258-AA6B-1165-E6F80BD08C7C" name="game_involvement_uk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:09:59 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAB87F96-25EC-3E98-DDA1-28940E2FD79E"/>
+<colUsage columnID="FE6971DA-2D79-FF30-0E46-AAAC345D9189"/>
+<colUsage columnID="D5C5CC44-C37A-C409-58C6-7EC7B60662F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A3C91E4-250B-4759-B794-1EB3AD6BF353" name="game_involvement_activity_type_fk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>6D39C2A2-3EE4-575A-A4D4-521F1D1912EE</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5C5CC44-C37A-C409-58C6-7EC7B60662F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3927EC2E-D8EE-856B-C536-FC1B8ED836C9" name="game_involvement_game_fk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>97795F67-E928-0FCD-68EB-2A197405AC55</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAB87F96-25EC-3E98-DDA1-28940E2FD79E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EF9A127-35D0-6DDC-F020-0A8C10A0CC06" name="game_involvement_person_fk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>5C1A8280-EBF8-958C-43A2-9D5F2FE43806</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE6971DA-2D79-FF30-0E46-AAAC345D9189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

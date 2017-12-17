@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9057B7A-F8AE-D51C-D6A1-37AAD8053B50" name="person">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>C219E366-1E94-53AF-33DD-885734AFEE54</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="1E931F55-1757-FFDD-2ED3-4A7F7CE8FDCB">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>083660F1-4E76-AC5D-DBA1-7CB8D1E959B1</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="64F8FA8D-6692-0B71-C96A-E2F22CE8FD10">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>5BB45E49-8E3F-4237-1421-5483A1DDFC86</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="9F92E02E-38D7-7BDC-F312-8AE7B8360AC6">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>5CE651BC-0159-C088-41DE-C197C9CA778E</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="licence_number" id="1AE1C959-CF02-CD4C-A422-46A9DC539918">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>BA359035-411C-BA3E-517A-7492F2FB0434</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthday" id="837A7A48-DEAE-846F-9980-73A0AD80739D">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>27D38C12-94E8-D163-05AF-54EC7C7719F5</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_coach" id="293EF05B-7117-B32A-1FD6-579505F9D411">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>1450F20C-DF90-D6F4-BA48-436F77DA8FF7</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_player" id="DA980AA2-38B4-D568-6E39-BE6EB41842AF">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>86733B77-D57D-E008-880B-0FCC56EB538F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_active" id="4283ADD7-C988-CFDB-7D6F-8463580A40E5">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>8D236F16-C5C8-FFAC-376E-C786578F9858</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="304879D0-48B0-2EB8-C696-5975B0AEE259" name="person_pk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>F8EEAF50-3B45-9D01-18AC-EEF7BBABC857</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E931F55-1757-FFDD-2ED3-4A7F7CE8FDCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9CAEE95-CACC-8E52-525E-6CCFEACA9D44" name="person_licence_number_uk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:37:25 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE1C959-CF02-CD4C-A422-46A9DC539918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

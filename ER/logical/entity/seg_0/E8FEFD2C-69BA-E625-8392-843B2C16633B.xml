@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8FEFD2C-69BA-E625-8392-843B2C16633B" name="game">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-13 21:13:22 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="game id" id="182BA3DD-49F7-1A6F-27B8-8F2203282885">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:00:53 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="guest team id" id="683A03CF-A533-E0CF-13FC-A34B12E63B5D">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:01:48 UTC</createdTime>
+<generatorID>B5170318-B4F0-0FA7-A5B0-273206C9EEBC</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<referedAttribute>F460CDB2-59A0-723F-983D-2DF43F3F7715</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="game start date" id="83CCEA2D-3CB7-14FA-7DE5-A985007DC862">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:03:06 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location id" id="A6D930FF-9A2E-A377-93CB-AD61E72B2578">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 08:56:16 UTC</createdTime>
+<generatorID>B14F82D8-4B70-71BC-CCA6-20658FFEA452</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<referedAttribute>1FEE6699-C6BF-5CCC-4DC9-17DEF54BAB39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season" id="CB3F40AE-B9B5-473D-C114-E81655EF86F9">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:11:17 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3321FF98-25E6-134B-6E18-D0AED836987D" name="game_PK">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:01:10 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>182BA3DD-49F7-1A6F-27B8-8F2203282885</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F81BEA31-D483-A758-D75A-414ADE91D0F6" name="game unique">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:47:28 UTC</createdTime>
+<generatorID>0734087E-7C8E-43EA-4725-949DB1813DB6</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>683A03CF-A533-E0CF-13FC-A34B12E63B5D</attributeRef>
+<attributeRef>83CCEA2D-3CB7-14FA-7DE5-A985007DC862</attributeRef>
+<attributeRef>CB3F40AE-B9B5-473D-C114-E81655EF86F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

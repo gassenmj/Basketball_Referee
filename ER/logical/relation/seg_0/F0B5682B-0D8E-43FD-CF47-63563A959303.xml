@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="team membship activity typ fk" directorySegmentName="seg_0" id="F0B5682B-0D8E-43FD-CF47-63563A959303">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:29:13 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<sourcePk>43A01A58-E8DB-0A50-52F3-2339D7B445AD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>023AA087-626B-7FB8-26ED-70C8863A74E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1AEA394B-1C60-63A8-3C1C-EE8A62B960ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

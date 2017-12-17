@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AA81D3D-6F5F-27B8-DA3E-716A74469A8E" name="location">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-13 21:17:51 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="location id" id="1FEE6699-C6BF-5CCC-4DC9-17DEF54BAB39">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 08:55:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gym name" id="06792C42-B13D-0183-29B7-939A00358C36">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 08:54:42 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="C0E9627E-30F6-CC6B-E058-68346B00A70D">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 08:56:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip code" id="34161FF2-10D7-4C8C-E528-A3386CDF19DA">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 08:57:21 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="5B9B0FB2-4F5C-156F-E54F-332160512222">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 08:57:41 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DA72DAC-7F24-D2B7-9300-56817A51D1B5" name="location_PK">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 08:55:22 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1FEE6699-C6BF-5CCC-4DC9-17DEF54BAB39</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A57B9214-40F0-3986-911D-188BB096A749" name="gym name unique">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:47:28 UTC</createdTime>
+<generatorID>1B63C616-093F-717C-9411-320BD3D23D99</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>06792C42-B13D-0183-29B7-939A00358C36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

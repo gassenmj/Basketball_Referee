@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="team membership team fk" directorySegmentName="seg_0" id="EDB11FF9-FA1C-D5B0-2C51-4A476E5837C5">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-13 21:24:15 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<sourcePk>E7F120BD-79D9-08DE-9186-132B52F473D5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD69A485-4404-C62A-99A0-5EF7FF1226F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1AEA394B-1C60-63A8-3C1C-EE8A62B960ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

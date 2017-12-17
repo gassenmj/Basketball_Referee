@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9813F7B-9E43-B364-3C4E-F5C0AF1CFB4D" name="team_membership">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>1AEA394B-1C60-63A8-3C1C-EE8A62B960ED</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EE151720-65BD-4A25-1073-F8498CCFFE74">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:11:36 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_team_membership_id</notNullConstraintName>
+</Column>
+<Column name="person_id" id="F3E6807A-3A5C-9F14-D90C-E08C45E08F2F">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>31428A8C-1349-5327-654B-543C9CA08A4C</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_team_membership_person_person_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="AEBE8D13-CDAE-2ADE-1844-C57EDA101124" referredColumn="1E931F55-1757-FFDD-2ED3-4A7F7CE8FDCB"/>
+</associations>
+</Column>
+<Column name="team_id" id="5255A5DE-A362-CEE6-BFE9-16E1C2A937E0">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>E79A281C-99FF-0991-F8D6-98F2AE54074D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_team_membership_team_team_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A928D178-21C9-310F-7880-00C240AB0E82" referredColumn="F01E1DDE-AE02-6AA9-F4FD-3E07A7A0443E"/>
+</associations>
+</Column>
+<Column name="type_of_membership" id="337D7ED5-D712-377B-9FDF-8C13A8E63632">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:21:09 UTC</createdTime>
+<generatorID>0B078A51-9AFF-760E-D062-838352428967</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_team_membership_activity_type_activity_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B0F909F4-D6B2-8CB5-197F-C3BB5D16371D" referredColumn="599B99FE-DEC8-94D3-D21B-78D6172A25DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C689CE9B-30BB-0642-8A4F-D6F0C1ADE2F9" name="team_membership_pk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:11:36 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE151720-65BD-4A25-1073-F8498CCFFE74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18D7D6AE-DC48-FE7D-F515-9DBCF2065E87" name="team_membership_person_fk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>4EA598D9-EE35-4394-0476-F891619A0784</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3E6807A-3A5C-9F14-D90C-E08C45E08F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04536FC4-13FD-6EF3-35BC-8633F2335EB5" name="team_membership_activity_type_fk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>F0B5682B-0D8E-43FD-CF47-63563A959303</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="337D7ED5-D712-377B-9FDF-8C13A8E63632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="681DFDD6-9E20-4EFE-8979-07DCFC476994" name="team_membership_team_fk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>EDB11FF9-FA1C-D5B0-2C51-4A476E5837C5</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5255A5DE-A362-CEE6-BFE9-16E1C2A937E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

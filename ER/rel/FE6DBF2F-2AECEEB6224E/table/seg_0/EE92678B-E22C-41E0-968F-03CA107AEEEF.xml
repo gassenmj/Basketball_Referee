@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE92678B-E22C-41E0-968F-03CA107AEEEF" name="game">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>E8FEFD2C-69BA-E625-8392-843B2C16633B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_id" id="58C00DC2-D2F7-FBBB-C51F-3E1FAFA011B5">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>182BA3DD-49F7-1A6F-27B8-8F2203282885</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_game_game_id</notNullConstraintName>
+</Column>
+<Column name="home_team_id" id="2DDE7293-01F9-8BD1-F423-BC08E84E5D3B">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>0894A876-4480-990A-E5B2-7330B7B4A4A8</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_game_home_team_id</notNullConstraintName>
+</Column>
+<Column name="guest_team_id" id="EE99CD0F-2456-0E6A-07FC-E1A2A268FAFF">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>683A03CF-A533-E0CF-13FC-A34B12E63B5D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_game_team_team_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C0611EDA-ACBB-5A3A-0145-BDFD60F0C514" referredColumn="F01E1DDE-AE02-6AA9-F4FD-3E07A7A0443E"/>
+</associations>
+</Column>
+<Column name="game_start_date" id="C610F1FA-C584-E021-4964-11F5EE7E9A1F">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>83CCEA2D-3CB7-14FA-7DE5-A985007DC862</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season" id="82143EFA-BDDA-3483-F682-7A569B9F9F24">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>CB3F40AE-B9B5-473D-C114-E81655EF86F9</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_id" id="128CF9E2-F3C9-0285-FBD3-92C93B03732B">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:21:09 UTC</createdTime>
+<generatorID>A6D930FF-9A2E-A377-93CB-AD61E72B2578</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_game_location_location_id</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F49F0BAE-72D4-C710-D137-631251707BC4" referredColumn="CA410846-A475-3254-FDE5-E35855C8C12B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E3760A5-C6BF-0498-D03D-3806139848C8" name="game_pk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:30:34 UTC</createdTime>
+<generatorID>3321FF98-25E6-134B-6E18-D0AED836987D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58C00DC2-D2F7-FBBB-C51F-3E1FAFA011B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0734087E-7C8E-43EA-4725-949DB1813DB6" name="game_uk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:35:59 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DDE7293-01F9-8BD1-F423-BC08E84E5D3B"/>
+<colUsage columnID="EE99CD0F-2456-0E6A-07FC-E1A2A268FAFF"/>
+<colUsage columnID="C610F1FA-C584-E021-4964-11F5EE7E9A1F"/>
+<colUsage columnID="82143EFA-BDDA-3483-F682-7A569B9F9F24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F29EE389-0E4D-9FC1-2469-D46F7775234E" name="game_team_fk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:56:41 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE99CD0F-2456-0E6A-07FC-E1A2A268FAFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB3FAF3B-6CC2-923A-45ED-FB929E8F54F4" name="game_location_fk">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 10:21:09 UTC</createdTime>
+<generatorID>B14F82D8-4B70-71BC-CCA6-20658FFEA452</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="128CF9E2-F3C9-0285-FBD3-92C93B03732B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

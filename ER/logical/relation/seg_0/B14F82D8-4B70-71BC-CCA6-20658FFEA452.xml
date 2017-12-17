@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="game home team fk" directorySegmentName="seg_0" id="B14F82D8-4B70-71BC-CCA6-20658FFEA452">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-13 21:22:03 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<sourcePk>4DA72DAC-7F24-D2B7-9300-56817A51D1B5</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>location_for_game</nameOnSource>
+<nameOnTarget>game_has_location</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4AA81D3D-6F5F-27B8-DA3E-716A74469A8E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8FEFD2C-69BA-E625-8392-843B2C16633B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

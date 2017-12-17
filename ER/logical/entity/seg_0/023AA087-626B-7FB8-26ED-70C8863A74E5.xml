@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="023AA087-626B-7FB8-26ED-70C8863A74E5" name="activity type">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:18:00 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="activity id" id="BA24B933-0B9C-6794-B09C-058C70A92564">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:18:46 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activity name" id="340335CB-DC83-6C04-0EFF-F079987E16DB">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:19:09 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43A01A58-E8DB-0A50-52F3-2339D7B445AD" name="activity_type_PK">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:19:06 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BA24B933-0B9C-6794-B09C-058C70A92564</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9C8D0672-375C-5F7B-6670-4C73E0D8FB89" name="activity type unique">
+<createdBy>gassenmj</createdBy>
+<createdTime>2017-12-14 09:47:28 UTC</createdTime>
+<generatorID>1AF8A676-19D5-4D84-D486-DBE938F87D9C</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="FE6DBF2F-34CE-B355-5ACE-2AECEEB6224E" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>340335CB-DC83-6C04-0EFF-F079987E16DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
